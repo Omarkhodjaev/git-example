@@ -15,6 +15,8 @@ app.use(express.urlencoded({ extended: true }));
 
 const PORT = config.port;
 
+// Github
+
 app.set("views", join(__dirname, "views"));
 app.set("view engine", "ejs");
 
